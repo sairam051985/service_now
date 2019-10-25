@@ -3,7 +3,7 @@ import json
 url='https://dev94041.service-now.com/api/sn_chg_rest/change/standard'
 
 user='admin'
-pwd='Preethi@2019'
+pwd={$your_password}
 headers = {"Accept":"*/*"}
 r = requests.get(url=url, auth=(user, pwd),headers=headers)
 a=r.json()
