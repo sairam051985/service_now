@@ -5,7 +5,7 @@ import json
 url = 'https://dev94041.service-now.com/api/now/attachment/upload'
 
 user='admin'
-pwd='Preethi@2019'
+pwd={$your_password$}
 page_size=50
 payload = {
 
